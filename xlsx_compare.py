@@ -226,9 +226,10 @@ def _compare_xlsx_files(got_file, exp_file, ignore_files, ignore_elements):
     return 'Ok', 'Ok'
 
 
-def compare_xlsx_wrapper(file1, file2):
-    ignore_files = []
-    ignore_elements = {}
+class ExcelCompareWrapper(object):
+    def compare_xlsx(file1, file2):
+        ignore_files = []
+        ignore_elements = {}
 
-    got, exp = _compare_xlsx_files(file1, file2, ignore_files, ignore_elements)
-    return got == exp
+        got, exp = _compare_xlsx_files(file1, file2, ignore_files, ignore_elements)
+        return got == exp
