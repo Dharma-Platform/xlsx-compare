@@ -7,6 +7,6 @@ setup(
     author_email='bella@dharmaai.com',
     license='BSD',
     description='A Python script to compare the equivalency of two Excel documents',
-    long_description=open('README.md').read(),
+    long_description=open('README.rst').read(),
     scripts=['xlsx-compare']
 )
