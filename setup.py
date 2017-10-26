@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='xlsx-compare',
-    version='0.1',
+    version='0.1.1',
     author='Bella Woo',
     author_email='bella@dharmaai.com',
     license='BSD',
