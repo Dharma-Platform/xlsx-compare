@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='xlsx_compare',
+    name='xlsxcompare',
     version='0.0.1',
     author='Bella Woo',
     author_email='bella@dharmaplatform.com',
